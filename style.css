@@ -1,0 +1,27 @@
+html, body, #map {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.legend {
+  background: #fff;
+  padding: 8px;
+  line-height: 20px;
+  color: #333;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+.legend i {
+  width: 20px;
+  height: 20px;
+  float: left;
+  margin-right: 8px;
+  opacity: 0.8;
+}
+
+.leaflet-control-layers {
+  background-color: white;
+}
